@@ -1,0 +1,32 @@
+/* Shared styles */
+
+body{
+    margin: 30px 192px;
+    font-family: "Fira Sans", sans-serif;
+}
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header style */
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.header-div > p{
+    font-size: 38px;
+    margin: 0;
+}
+.header-div > button{
+    color: #006A50;
+    width: 140px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
