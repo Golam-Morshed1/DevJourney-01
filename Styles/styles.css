@@ -12,6 +12,10 @@ body{
 .primary-bg{
     background-color: #C6E4D6;
 }
+.Heading{
+    font-size: 48px;   
+    margin: 0; 
+}
 
 /* Header style */
 .header-div{
@@ -73,4 +77,33 @@ body{
 }
 .hero-img-div > img{
     width: 100%;    
+}
+
+/* Pillars-section style */
+.Pillars-section{
+    margin-bottom: 96px;
+}
+.pillars-div{
+    display: flex;
+    gap: 28px;
+}
+.pillar-div{
+    background-color: #FFFFFF;
+    width: 360px;
+    box-shadow:5px 5px 10px rgba(128, 128, 128, 0.251);
+    padding: 28px;  
+    border-radius: 16px;
+    margin-top: 38px;
+}
+.pillar-div > h4{
+    font-size: 24px;
+    margin: 0;
+}
+.pillar-div > p{
+    font-size: 19px;
+    margin-top: 16px;
+
+}
+.pillar-div > img{
+    margin-bottom: 28px;
 }
