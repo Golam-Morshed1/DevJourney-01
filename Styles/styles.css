@@ -107,3 +107,110 @@ body{
 .pillar-div > img{
     margin-bottom: 28px;
 }
+
+/* Vision-section style */
+.Vision-section{
+    margin-bottom: 96px;
+}
+.Vision-section > p{
+    font-size: 19px;
+    margin-top: 28px;
+    margin-bottom: 38px;
+}
+.visions-div{
+    display: flex;  
+    justify-content: space-between; 
+    gap: 28px;
+    margin-bottom: 38px;
+}
+.vision1-div{
+    width: 490px;
+    background-color: #5490F533;
+    padding: 38px;
+    border-radius: 16px;
+}
+.vision2-div{
+    width: 490px;
+    background-color: #09A15C33;
+    padding: 38px;
+    border-radius: 16px;
+}
+.vision3-div{
+    width: 490px;
+    background-color: #FFC23933;    
+    padding: 38px;
+    border-radius: 16px;
+}
+.vision1-div > h4,
+.vision2-div > h4,
+.vision3-div > h4{
+    font-size: 24px;
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+.vision1-div > p,
+.vision2-div > p,
+.vision3-div > p{
+    font-size: 19px;
+    margin: 0; 
+}
+.Learn-btn1{
+    font-size: 19px;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 32px;
+    background-color: #5490F5;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.Learn-btn2{
+    font-size: 19px;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 57px;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.Learn-btn3{
+    font-size: 19px;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 32px;
+    background-color: #FFC239;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.qoute-div{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.251);
+    padding: 57px 28px;
+    border-radius: 16px;    
+    background-color: #FFFFFF;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 28px;
+    background-position-y: 30px;
+}
+.qoute-div > .qoute-info{
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.63);
+    margin: 0;
+    margin-bottom: 14px;
+}
+.qoute-div > h3{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 6px;
+}
+.qoute-div > .qoute-role{
+    font-size: 19px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.445);
+}
