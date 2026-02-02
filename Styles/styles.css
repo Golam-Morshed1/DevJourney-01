@@ -3,6 +3,7 @@
 body{
     margin: 30px 192px;
     font-family: "Fira Sans", sans-serif;
+    background-color: #F1F1F3;
 }
 .fira-sans-regular {
   font-family: "Fira Sans", sans-serif;
@@ -213,4 +214,52 @@ body{
     font-size: 19px;
     margin: 0;
     color: rgba(0, 0, 0, 0.445);
+}
+
+/* Opinion-section style */
+
+.question-div{
+    background-color: #FFFFFF;
+    padding: 38px;
+    margin-top: 28px;
+    border-radius: 16px;
+}
+.question-heading{
+    background-color: #C6E4D6;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 28px;
+    border: 1px solid #0202023e;
+}
+.question-heading > p{
+    margin: 0;    
+}
+.question{
+    border: 1px solid #0202023e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+}
+.question > p{
+    margin: 0;
+    color: #0E0E0E;
+    padding-left: 28px;
+}
+.question > div{
+    border-left: 1px solid #000; height: 110px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question > div > button{
+    font-size: 19px;
+    font-family: "Fira Sans", sans-serif;
+    width: 182px;
+    height: 52px;
+    background-color: #C6E4D6;
+    border-radius: 6px;
 }
