@@ -217,6 +217,9 @@ body{
 }
 
 /* Opinion-section style */
+.Opinion-section{
+    margin-bottom: 90px;
+}
 
 .question-div{
     background-color: #FFFFFF;
@@ -262,4 +265,137 @@ body{
     height: 52px;
     background-color: #C6E4D6;
     border-radius: 6px;
+}
+
+/* News-section style */
+
+.News-section{
+    margin-bottom: 90px;
+}
+.news-container{
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 38px;
+    padding: 56px;
+    border-radius: 16px;
+    margin-top: 38px;
+    margin-bottom: 28px;
+}
+.news-img-div{
+    border-radius: 28px;
+}
+.news-img-div > img{
+    border-radius: 24px;
+}
+
+.news-info-div > h3{
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 14px;
+}
+.news-info-div > .date{
+    font-size: 19px;
+    margin: 0;
+    margin-top: 14px;
+}
+.news-info-div > .date > span{
+    margin-left: 14px;
+}
+.news-info{
+    font-size: 19px;
+    line-height: 24px;
+}
+.news-info-div > button{
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 19px;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px; 
+}
+
+.news-container1{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FFFFFF;
+    gap: 38px;
+    padding: 56px;
+    border-radius: 16px;
+    margin-top: 38px;
+    margin-bottom: 28px;
+}
+.news-container2{
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 38px;
+    padding: 56px;
+    border-radius: 16px;
+    margin-top: 38px;
+}
+
+/* Donate-section style */
+.Donate-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Donate-section >p{
+    width: 1200px;
+    font-size: 19px;
+    margin: 0;
+    margin-top: 28px;
+    margin-bottom: 38px;
+}
+.amount{
+    display: flex;
+    gap: 28px;
+    margin-bottom: 38px;
+}
+.amount >.amount-200{
+    background-color: #C6E4D6;
+}
+.amount > p{
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.amount > p:hover{
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #C6E4D6;
+    padding: 48px;
+    border-radius: 16px;
+}
+.Donate-section > input{
+    width: 1100px;
+    text-align: center;
+    padding: 20px 0;
+    border: none;
+    color: #0e0e0eb3;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 19px;
+    margin-bottom: 38px;
+}
+    
+.Donate-section > input::placeholder{
+    color: #0e0e0eb3;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 19px;
+}
+.Donate-section > button{
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 19px;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 8px;
 }
