@@ -1,9 +1,12 @@
 /* Shared styles */
 
 body{
-    margin: 30px 192px;
+    margin: 0;
     font-family: "Fira Sans", sans-serif;
     background-color: #F1F1F3;
+}
+main , header{
+    margin: 30px 192px;
 }
 .fira-sans-regular {
   font-family: "Fira Sans", sans-serif;
@@ -341,6 +344,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 90px;
 }
 .Donate-section >p{
     width: 1200px;
@@ -398,4 +402,69 @@ body{
     border: none;
     padding: 17px 34px;
     border-radius: 8px;
+}
+/* Newsletter-section style */
+
+.Newsletter-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 90px 300px;
+    margin-bottom: 90px;
+    border-radius: 20px;
+}
+.Newsletter-section > P{
+    font-size: 19px;
+    max-width: 746px;
+    text-align: center;
+}
+.Newsletter-section > div{
+    width: 900px;
+    text-align: center;
+}
+#email{
+    width: 700px;
+    padding: 18px;
+    font-size: 19px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: #FFFFFF;
+    border: none;
+}
+#email::placeholder{
+    font-size: 19px;
+}
+#subscribe{
+    width: 160px;
+    padding: 17px;
+    font-size: 21px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+footer{
+    background-color: #FFFFFF;
+    padding: 50px 0;
+}
+footer > h3{
+    font-size: 38px;
+    text-align: center;
+}
+footer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    margin-top: 38px;
+}
+.facebook{
+    width: 28px;
+}
+hr{
+    width: 1200px;
 }
